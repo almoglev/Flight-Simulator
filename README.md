@@ -1,5 +1,5 @@
 # FlightGear simulator first milestone:
-FlightGear Simulator visualize a real plane with it's system, controlled by a multi-threaded code that represents both the server and the client, that send data to the simulator and receive data from it. 
+FlightGear Simulator visualize a real plane with it's system, controlled by a multi-threaded code that represents both the server and the client, that send data to the simulator and receive data from it.  
 This is the first milestone, which focuses on building an interpreter for a new programming language- our input is a txt file written in a new programming language, for example fly.txt in the appendix.
 The interpreter will go over the lines in the txt file, those are written in a new programming language, and will interpret them (lexer, parser and execute), similar to the JVM process.
 Each command belongs to it's own class, where it has to implement the "execute" method of the "Command.h" interface, in order to activate the command.
